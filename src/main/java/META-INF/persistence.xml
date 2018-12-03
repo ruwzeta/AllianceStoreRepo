@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <class>lk.apiit.alliancestr.model.CardModel</class>
+        <class>lk.apiit.alliancestr.model.CardPaymentsModel</class>
+        <class>lk.apiit.alliancestr.model.CardtypeModel</class>
+        <class>lk.apiit.alliancestr.model.CartItemModel</class>
+        <class>lk.apiit.alliancestr.model.CourierModel</class>
+        <class>lk.apiit.alliancestr.model.DeliveryModel</class>
+        <class>lk.apiit.alliancestr.model.DeliveryNoteModel</class>
+        <class>lk.apiit.alliancestr.model.DeliveryAdderssModel</class>
+        <class>lk.apiit.alliancestr.model.DeliveryTypeModel</class>
+        <class>lk.apiit.alliancestr.model.DiscountModel</class>
+        <class>lk.apiit.alliancestr.model.DiscountTypeModel</class>
+        <class>lk.apiit.alliancestr.model.EmployeeModel</class>
+        <class>lk.apiit.alliancestr.model.ItemModel</class>
+        <class>lk.apiit.alliancestr.model.PreOrderItemModel</class>
+        <class>lk.apiit.alliancestr.model.PreorderModel</class>
+        <class>lk.apiit.alliancestr.model.ProductModel</class>
+        <class>lk.apiit.alliancestr.model.ProductBrandModel</class>
+        <class>lk.apiit.alliancestr.model.ProductFranchiseModel</class>
+        <class>lk.apiit.alliancestr.model.ProductReviewModel</class>
+        <class>lk.apiit.alliancestr.model.ProductTypeModel</class>
+        <class>lk.apiit.alliancestr.model.ReceivedNoteModel</class>
+        <class>lk.apiit.alliancestr.model.ReturnNoteModel</class>
+        <class>lk.apiit.alliancestr.model.ReviewResponseModel</class>
+        <class>lk.apiit.alliancestr.model.SaleModel</class>
+        <class>lk.apiit.alliancestr.model.SalesItemModel</class>
+        <class>lk.apiit.alliancestr.model.SaletypeModel</class>
+        <class>lk.apiit.alliancestr.model.ShoppingCartModel</class>
+        <class>lk.apiit.alliancestr.model.StorageBinModel</class>
+        <class>lk.apiit.alliancestr.model.UserModel</class>
+        <class>lk.apiit.alliancestr.model.UserTypeModel</class>
+        <class>lk.apiit.alliancestr.model.VariationProductModel</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/lk_allaince_db"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/lk_allaince_db"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/lk_allaince_db"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/lk_allaince_db"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
